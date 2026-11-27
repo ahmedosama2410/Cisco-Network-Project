@@ -70,4 +70,4 @@ show ip dhcp binding
 **Ahmed Osama**
 IT Operations | Network Security
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-osama-6a6a972a4) · [GitHub](https://github.com/ahmedosama2410)
+[LinkedIn](https://www.linkedin.com/in/ahmed-elmishtawy-6a6a972a4/) · [GitHub](https://github.com/ahmedosama2410)
