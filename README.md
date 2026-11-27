@@ -32,7 +32,7 @@ The project includes:
 
 ## Network Topology
 
-![Enterprise Network Topology](Network-Topology.png)
+![Enterprise Network Topology](Enterprise-Network.pkt.png)
 
 ## Project Files
 
