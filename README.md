@@ -38,7 +38,7 @@ The project includes:
 
 | File | Description |
 |---|---|
-| Enterprise-Network.pkt | Complete Cisco Packet Tracer project |
+| Enterprise-Network.pkt.pkt | Complete Cisco Packet Tracer project |
 | Network-Topology.png | Network topology diagram |
 
 ## Project Objectives
