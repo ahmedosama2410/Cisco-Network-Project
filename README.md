@@ -1,59 +1,73 @@
-# Cisco Enterprise Network Design & Simulation
+# Two-Company Enterprise Network Design
 
-## Project Overview
-This project demonstrates the design and simulation of a large-scale enterprise network infrastructure using Cisco Packet Tracer.
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?logo=cisco&logoColor=white)
+![Routing](https://img.shields.io/badge/Routing-OSPF%20%7C%20EIGRP-2E7D32)
+![Security](https://img.shields.io/badge/Security-VPN%20%7C%20ACLs-C62828)
 
-The network consists of multiple interconnected network segments, routers, multilayer switches, access switches, and servers, providing communication between different departments and network locations.
-
-## Network Architecture
-
-The project includes:
-
-- Multiple interconnected routers.
-- Multilayer switches and access switches.
-- VLAN segmentation (VLANs 2–9).
-- Inter-VLAN routing.
-- WAN connectivity between different network segments.
-- ISP integration.
-- Server connectivity.
-- Dynamic routing and route redistribution.
-
-## Technologies & Protocols
-
-- Cisco Packet Tracer
-- VLANs
-- Routing & Switching
-- EIGRP
-- OSPF
-- Inter-VLAN Routing
-- WAN
-- Layer 3 Switching
-- IP Addressing
+An enterprise network designed and simulated in **Cisco Packet Tracer**. It connects two company sites through an ISP network, with VLAN segmentation, dynamic routing, redundant switching links, and secure connectivity.
 
 ## Network Topology
 
-![Enterprise Network Topology](Enterprise-Network.pkt.png)
+![Network topology](Enterprise-Network.png)
 
-## Project Files
-
-| File | Description |
-|---|---|
-| Enterprise-Network.pkt | Complete Cisco Packet Tracer project |
-| Network-Topology.png | Network topology diagram |
+*Click the image to view it in full size.*
 
 ## Project Objectives
 
-- Design a scalable enterprise network.
-- Configure network segmentation using VLANs.
-- Establish communication between different network segments.
-- Implement dynamic routing.
-- Integrate WAN and ISP connectivity.
-- Simulate and analyze network infrastructure.
+- Connect two company networks over an ISP.
+- Segment each network into VLANs and allow controlled communication between them.
+- Improve availability with redundant links between switching layers.
+- Secure traffic using VPN tunnels and access control lists.
 
-## Tools Used
-Cisco Packet Tracer
+## Key Features
+
+| Area | Implementation |
+|---|---|
+| Segmentation | VLANs 2–9 |
+| Inter-VLAN communication | Inter-VLAN routing |
+| IP address assignment | DHCP |
+| Dynamic routing | OSPF and EIGRP with route redistribution |
+| WAN | ISP connectivity over serial links |
+| Security | VPN tunnels and ACLs |
+| Availability | Redundant links between switching layers |
+| Services | Servers integrated into the topology |
+
+## Technologies Used
+
+- **Simulation:** Cisco Packet Tracer
+- **Devices:** Cisco 2911 routers, 3560 multilayer switches, 2960 switches, PCs, and servers
+- **Protocols and concepts:** TCP/IP, subnetting, VLANs, DHCP, OSPF, EIGRP, route redistribution, VPN, ACLs
+
+## Repository Contents
+
+| File | Description |
+|---|---|
+| `Enterprise-Network.pkt` | Packet Tracer project file |
+| `Enterprise-Network.png` | Topology screenshot |
+| `README.md` | Project documentation |
+
+## How to Run
+
+1. Install [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer).
+2. Download `Enterprise-Network.pkt` from this repository.
+3. Open the file and wait for the links to come up.
+4. Test connectivity between end devices using `ping`.
+
+## Useful Verification Commands
+
+```text
+show vlan brief
+show ip interface brief
+show ip route
+show ip ospf neighbor
+show ip eigrp neighbors
+show access-lists
+show ip dhcp binding
+```
 
 ## Author
-Ahmed Osama
 
-Network Engineering | Network Administration | Network Security
+**Ahmed Osama**
+IT Operations | Network Security
+
+[LinkedIn](https://www.linkedin.com/in/ahmed-osama-6a6a972a4) · [GitHub](https://github.com/ahmedosama2410)
