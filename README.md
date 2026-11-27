@@ -8,7 +8,7 @@ An enterprise network designed and simulated in **Cisco Packet Tracer**. It conn
 
 ## Network Topology
 
-![Network topology](Enterprise-Network.pkt.png)
+![Network topology](Enterprise-Network.png)
 
 *Click the image to view it in full size.*
 
